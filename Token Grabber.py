@@ -1,5 +1,5 @@
 import json, shutil, base64, sqlite3, sys, os, ctypes, requests, re
-#from colorfull import init; init()
+from colorfull import init; init()
 from subprocess import check_output
 from cryptography.hazmat.primitives.ciphers import (Cipher, algorithms, modes)
 from cryptography.hazmat.backends import default_backend
